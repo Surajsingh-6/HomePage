@@ -1,0 +1,23 @@
+#recommended-apps {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+    padding: 16px;
+}
+
+.app-link {
+    display: block;
+    padding: auto;
+    background-color: #ffffff00;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    border: 2px solid white;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
